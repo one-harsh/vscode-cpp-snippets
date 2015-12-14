@@ -1,0 +1,29 @@
+{
+    "name": "CppSnippets",
+    "publisher": "hars",
+    "displayName": "Cpp Snippets",
+    "description": "Code snippets for C++",
+    "version": "0.0.1",
+    "engines": {
+		"vscode": "^0.10.1"
+	},
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+		"snippets": [{
+			"language": "cpp",
+			"path": "./snippets/cpp.json"
+		}]
+	},
+    "galleryBanner": { 
+        "color": "#E6E0EA", 
+        "theme": "light" 
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/one-harsh/vscode-cpp-snippets"
+    },
+    "icon": "images/cpp.png",
+    "license": "Check in License in the root folder"
+}
