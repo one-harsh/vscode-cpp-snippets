@@ -1,4 +1,4 @@
-# Cpp Snippets
+# C++ Snippets
 This extension for Visual Studio Code adds snippets for C++.
 
 ## Usage

@@ -1,7 +1,7 @@
 {
     "name": "CppSnippets",
     "publisher": "hars",
-    "displayName": "Cpp Snippets",
+    "displayName": "C++ Snippets",
     "description": "Code snippets for C++",
     "version": "0.0.1",
     "engines": {
