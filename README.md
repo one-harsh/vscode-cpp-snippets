@@ -18,3 +18,6 @@ Alternatively, one can also just press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+
 4. Type `ext install` or just simply select `Install Extension`
 5. Choose the extension - Cpp Snippets
 6. Relaunch VS Code
+
+
+*Suggestions for improvement are welcome.*
