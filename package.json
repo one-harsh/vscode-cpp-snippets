@@ -11,10 +11,16 @@
         "Snippets"
     ],
     "contributes": {
-		"snippets": [{
+		"snippets": [
+			{
+			"language": "c"	
+			"path": ".snippets/c.json"
+			},
+			{
 			"language": "cpp",
 			"path": "./snippets/cpp.json"
-		}]
+			}
+		]
 	},
     "galleryBanner": { 
         "color": "#E6E0EA", 
