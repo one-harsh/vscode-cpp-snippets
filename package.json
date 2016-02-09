@@ -1,8 +1,8 @@
 {
     "name": "CppSnippets",
     "publisher": "hars",
-    "displayName": "C++ Snippets",
-    "description": "Code snippets for C++",
+    "displayName": "C/C++ Snippets",
+    "description": "Code snippets for C/C++",
     "version": "0.0.1",
     "engines": {
 		"vscode": "^0.10.1"
