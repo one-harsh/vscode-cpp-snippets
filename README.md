@@ -1,5 +1,5 @@
-# C++ Snippets
-This extension for Visual Studio Code adds snippets for C++.
+# C/C++ Snippets
+This extension for Visual Studio Code adds snippets for C/C++.
 
 ## Usage
 Type a part of the keywords in snippet e.g., "for" and press enter.
