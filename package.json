@@ -14,7 +14,7 @@
 		"snippets": [
 			{
 			"language": "c",
-			"path": ".snippets/c.json"
+			"path": "./snippets/c.json"
 			},
 			{
 			"language": "cpp",
