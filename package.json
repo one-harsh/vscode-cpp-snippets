@@ -3,7 +3,7 @@
     "publisher": "hars",
     "displayName": "C/C++ Snippets",
     "description": "Code snippets for C/C++",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
 		"vscode": "^0.10.1"
 	},
@@ -13,7 +13,7 @@
     "contributes": {
 		"snippets": [
 			{
-			"language": "c"	
+			"language": "c",
 			"path": ".snippets/c.json"
 			},
 			{
