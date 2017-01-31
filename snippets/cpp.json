@@ -235,5 +235,12 @@
 			"};"
 		],
 		"description": "Code snippet for union"
+	},
+	"cout": {
+		"prefix": "cout",
+		"body": [
+			"std::cout << \"${1:/* message */}\" << \"\\n\";"
+		],
+		"description": "Code snippet for printing to std::cout"
 	}
 }
