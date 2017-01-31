@@ -241,6 +241,6 @@
 		"body": [
 			"std::cout << \"${1:/* message */}\" << \"\\n\";"
 		],
-		"description": "Code snippet for printing to std::cout"
+		"description": "Code snippet for printing to std::cout, provided the header is set"
 	}
 }
