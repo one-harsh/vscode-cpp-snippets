@@ -176,7 +176,7 @@
 	"#ifndef": {
 		"prefix": "#ifndef",
 		"body": [
-			"#ifdef ${1:1}",
+			"#ifndef ${1:1}",
 			"$2",
 			"#endif // !$1"
 		],
