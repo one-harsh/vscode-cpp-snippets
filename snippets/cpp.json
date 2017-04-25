@@ -251,7 +251,7 @@
 		"description": "Code snippet for #include \" \""
 	},
 	"#inc<": {
-		"prefix": "#inc",
+		"prefix": "#inc<",
 		"body": [
 			"#include <$1>"
 		],
