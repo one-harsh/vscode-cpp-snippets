@@ -116,5 +116,19 @@
 			"};"
 		],
 		"description": "Code snippet for union"
+	},
+	"#inc": {
+		"prefix": "#inc",
+		"body": [
+			"#include \"$1\""
+		],
+		"description": "Code snippet for #include \" \""
+	},
+	"#inc<": {
+		"prefix": "#inc",
+		"body": [
+			"#include <$1>"
+		],
+		"description": "Code snippet for #include \" \""
 	}
 }

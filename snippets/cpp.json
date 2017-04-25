@@ -242,5 +242,19 @@
 			"std::cout << \"${1:/* message */}\" << \"\\n\";"
 		],
 		"description": "Code snippet for printing to std::cout, provided the header is set"
+	},
+	"#inc": {
+		"prefix": "#inc",
+		"body": [
+			"#include \"$1\""
+		],
+		"description": "Code snippet for #include \" \""
+	},
+	"#inc<": {
+		"prefix": "#inc",
+		"body": [
+			"#include <$1>"
+		],
+		"description": "Code snippet for #include \" \""
 	}
 }
