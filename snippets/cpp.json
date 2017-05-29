@@ -125,23 +125,7 @@
 	"enum class": {
 		"prefix": "enum class",
 		"body": [
-			"enum class ${MyClass}",
-			"{",
-			"public:",
-			"	${MyClass}();",
-			"	~${MyClass}();",
-			"",
-			"private:",
-			"	$1",
-			"};",
-			"",
-			"${MyClass}::${MyClass}()",
-			"{",
-			"}",
-			"",
-			"${MyClass}::~${MyClass}()",
-			"{",
-			"}"
+			"enum class ${MyClass} { };"
 		],
 		"description": "Code snippet for enum class"
 	},
