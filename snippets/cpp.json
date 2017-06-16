@@ -42,12 +42,12 @@
 	"foreach": {
 		"prefix": "foreach",
 		"body": [
-			"for each (${object} ${var} in ${collection_to_loop})",
+			"for(auto ${var} : ${collection_to_loop})",
 			"{",
 			"	$1",
 			"}"
 		],
-		"description": "Code snippet for foreach statement"
+		"description": "Code snippet for range-based for loop (c++11) statement"
 	},
 	"if": {
 		"prefix": "if",
@@ -78,6 +78,13 @@
 			"};"
 		],
 		"description": "Code snippet for enum"
+	},
+	"enum class": {
+		"prefix": "enum class",
+		"body": [
+			"enum class ${MyClass} { };"
+		],
+		"description": "Code snippet for enum class (c++11)"
 	},
 	"class": {
 		"prefix": "class",
@@ -125,13 +132,6 @@
 		],
 		"description": "Code snippet for class with inline constructor/destructor"
 	},
-	"enum class": {
-		"prefix": "enum class",
-		"body": [
-			"enum class ${MyClass} { };"
-		],
-		"description": "Code snippet for enum class"
-	},
 	"interface": {
 		"prefix": "interface",
 		"body": [
@@ -140,7 +140,7 @@
 			"	$1",
 			"};"
 		],
-		"description": "Code snippet for interface"
+		"description": "Code snippet for interface (Visual C++)"
 	},
 	"namespace": {
 		"prefix": "namespace",
@@ -226,7 +226,7 @@
 	"cout": {
 		"prefix": "cout",
 		"body": [
-			"std::cout << \"${1:/* message */}\" << \"\\n\";"
+			"std::cout << \"${1:/* message */}\" << '\\n';"
 		],
 		"description": "Code snippet for printing to std::cout, provided the header is set"
 	},
