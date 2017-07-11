@@ -49,10 +49,10 @@
 		],
 		"description": "Code snippet for else statement"
 	},
-	"elseif": {
-		"prefix": "elseif",
+	"else if": {
+		"prefix": "else if",
 		"body": [
-			"elseif ($1)",
+			"else if ($1)",
 			"{",
 			"	$2",
 			"}"
