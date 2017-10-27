@@ -253,5 +253,11 @@
 			"#include <$1>"
 		],
 		"description": "Code snippet for #include \" \""
-	}
+	},
+	"#def": {
+		"prefix": "#def",
+		"body": [
+			"#define \"$1\" \"$2\" "
+			],
+		"description": "Code snippet for #define \" \""
 }
