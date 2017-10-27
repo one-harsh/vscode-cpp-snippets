@@ -260,4 +260,5 @@
 			"#define \"$1\" \"$2\" "
 			],
 		"description": "Code snippet for #define \" \""
+	}
 }
