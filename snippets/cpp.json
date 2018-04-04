@@ -260,5 +260,14 @@
 			"#define \"$1\" \"$2\" "
 			],
 		"description": "Code snippet for #define \" \""
+	},
+	"main": {
+		"prefix": "main",
+		"body": [
+			"int main(int argc, const char** argv) {",
+			"    return 0;",
+			"}"
+		],
+		"description": "Code snippet for 'for' loop"
 	}
 }
