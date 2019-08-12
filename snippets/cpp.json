@@ -37,7 +37,7 @@
 			"	$2",
 			"}"
 		],
-		"description": ""
+		"description": "Code snippet for while loop"
 	},
 	"foreach": {
 		"prefix": "foreach",
@@ -159,7 +159,8 @@
 			"{",
 			"	$1",
 			"}"
-		]
+		],
+		"description": "Code snippet for namespace"
 	},
 	"#ifdef": {
 		"prefix": "#ifdef",
