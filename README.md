@@ -4,11 +4,11 @@ This extension for Visual Studio Code adds snippets for C/C++.
 ## Usage
 Type a part of the keywords in snippet e.g., "for" and press enter.
 
-```
+```cpp
 for // Creates a for loop snippet
 ```
 
-Alternatively, one can also just press `Ctrl`+`Space` (Windows, Linux) or `Cmd`+`Space` (OSX) to access the available snippets in the editor.
+Alternatively, one can also just press <kbd>Ctrl</kbd> + <kbd>Space</kbd> (works on Windows, Linux, or Mac) to access the available snippets in the editor.
 
 ## Installation
 
