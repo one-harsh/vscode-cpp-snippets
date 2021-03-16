@@ -270,5 +270,33 @@
 			"}"
 		],
 		"description": "Code snippet for main function"
+	},
+
+	"static_cast":
+	{
+		"prefix": "static_cast",
+		"body": "static_cast<${1:Type}>(${2:expression})$0",
+		"description": "Code snippet for static_cast"
+	},
+
+	"dynamic_cast":
+	{
+		"prefix": "dynamic_cast",
+		"body": "dynamic_cast<${1:Type}>(${2:expression})$0",
+		"description": "Code snippet for dynamic_cast"
+	},
+
+	"reinterpret_cast":
+	{
+		"prefix": "reinterpret_cast",
+		"body": "reinterpret_cast<${1:Type}>(${2:expression})$0",
+		"description": "Code snippet for reinterpret_cast"
+	},
+
+	"const_cast":
+	{
+		"prefix": "const_cast",
+		"body": "const_cast<${1:Type}>(${2:expression})$0",
+		"description": "Code snippet for const_cast"
 	}
 }
