@@ -268,8 +268,9 @@
 	"main": {
 		"prefix": "main",
 		"body": [
-			"int main(int argc, const char** argv) {",
-			"    return 0;",
+			"int main(int argc, const char** argv)",
+			"{",
+			"$0",
 			"}"
 		],
 		"description": "Code snippet for main function"
