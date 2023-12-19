@@ -96,6 +96,15 @@
 		],
 		"description": "Code snippet for #if"
 	},
+	
+	"printf": {
+		"prefix": "pri",
+		"body": [
+			"printf(\"$1\"$2);",
+		],
+		"description": "Code Snippet for printf"
+	},
+	
 	"struct": {
 		"prefix": "struct",
 		"body": [
